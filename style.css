@@ -1162,7 +1162,7 @@ font-size: 19px;
     background-size: cover;
 }
 
-.slides iframe{
+.slides .video-js{
     border-radius: 20px;
     width: 70%;
     height: auto;
@@ -2389,7 +2389,7 @@ font-size: 19px;
         align-items: center;
         justify-content: center;
     }
-    .slides iframe{
+    .slides .video-js{
         width: 100%;
     }
     .titulo2{
