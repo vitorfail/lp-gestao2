@@ -1169,6 +1169,9 @@ font-size: 19px;
     aspect-ratio: 16 / 9;
     margin: 20px 0px;
 }
+.video-js .vjs-control-bar{
+    border-radius: 20px;
+}
 .slides .contadores{
     height: 200px;
     width: 100%;
