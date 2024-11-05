@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html class="_9dls touch _ar44" lang="pt-br" dir="ltr">
+    <head>
+        <title>Gestão360</title>
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-GB27R9ZZLY"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-GB27R9ZZLY');
+        </script>
+            <!-- Google Tag Manager -->
+            <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                })(window,document,'script','dataLayer','GTM-WNFB6K8Q');</script>
+        <!-- End Google Tag Manager -->
+        <!-- Meta Pixel Code -->
+        <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1252796872835022');
+        fbq('track', 'PageView');
+        </script>
+        <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=1252796872835022&ev=PageView&noscript=1"
+        /></noscript>
+    <!-- End Meta Pixel Code -->
+        <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+        <link rel="stylesheet" href="https://cdn.icons8.com/icons8/css/icons8.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css"/>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <link href="https://vjs.zencdn.net/8.16.1/video-js.css" rel="stylesheet" />    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    </head>
+    <body>
+        <section id="section-1">
+            <div class="center">
+                <div class="cta_inicial">
+                    <div class="header cima" style="--i:0s">
+                        <img alt="logo" src="../imagens/logo.png"/>
+                        <div class="items">
+                            <a>About</a>
+                            <a>Speakers</a>
+                            <a>Agenda</a>
+                            <a>Price</a>
+                            <a href="#produtos" class="registrar">Comprar</a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h1 class="cima" style="--i:0s">Aumente Seus Lucros & Tenha Controle Total das Finanças do Seu Negócio de forma Simples e Intuitiva!</h1>
+                        <p class="baixo" style="--i:0.2s">Organize em um só lugar os seus custos fixos, variáveis e entenda melhor a saúde financeira da sua empresa para aumentar seus lucros, sem mensalidade.</p>
+                        <a  href="#produtos">COMPRE AGORA</a>        
+                    </div>    
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="contadores">
+                <div class="center" style="justify-content: space-between;">
+                    <div class="cont">
+                        <span class="lnr lnr-cloud-download"></span>    
+                        <p>Dowloads</p>                
+                        <p id="numero1" class="numero1" name="numero">0</p>
+                    </div>
+                    <div class="cont">
+                        <span class="lnr lnr-rocket"></span>    
+                        <p>Feedbacks</p>                
+                        <p id="numero2" class="numero2" name="numero">0</p>
+                    </div>
+                    <div class="cont">
+                        <span class="lnr lnr-thumbs-up"></span>  
+                        <p>Satisfacão</p>                  
+                        <p id="numero3" class="numero3" name="numero">0</p>
+                    </div>    
+                </div>
+            </div> 
+        </section>
+        <section class="prova_social">
+            <div class="center_provas">
+                <div class="prova esquerda" style="--i:0s">
+                    <h1 >Veja as avaliações dos nossos clientes</h1>
+                    <div class="linha"></div>
+                    <p >Junte-se a vários empreendedores que já conquistaram o controle total das finanças de suas empresas de forma simples e eficiente, e impulsione seu negócio para o próximo nível</p>
+                </div>
+                <div class="comentarios" style="--i:0s">
+                    <div id="container_comentarios" class="container_comentarios">
+                        <div class="comentario cima" style="--i:0s">
+                            <div class="content">
+                                <div class="cabecalho">
+                                    <div class="profile">
+                                        <img src="../comentarios/2.jpeg"/>
+                                        <div class="informacoes">
+                                            <p>Pedro Morais</p>
+                                            <p>Analista de Dados</p>
+                                        </div>
+                                    </div>
+                                    <span>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>        
+                                </div>
+                                <p class="texto">"Uso a GestãoFinanceira360 há três meses e posso dizer que me ajudou a ter uma visão muito mais
+                                        clara das minhas finanças. Antes eu misturava contas pessoais e profissionais, agora tudo está organizado!"</p>
+                            </div>
+                        </div>
+                        <div class="comentario cima" style="--i:0s">
+                            <div class="content">
+                                <div class="cabecalho">
+                                    <div class="profile">
+                                        <img src="../comentarios/paulo.jpeg"/>
+                                        <div class="informacoes">
+                                            <p>Márcio J.</p>
+                                            <p>Autonomo</p>
+                                        </div>
+                                    </div>
+                                    <span>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>        
+                                </div>
+                                <p class="texto">
+                                    Antes, eu meio que não tinha muito controle sobre o quanto eu ganhava e pra onde ia o dinheiro. Às vezes, acabava gastando mais do que devia, sem nem perceber. Mas, depois de fazer alguns ajustes simples e mudar a forma como eu lidava com isso, finalmente consegui entender melhor o que entra e o que sai. Agora tá muito mais claro, sei onde estou gastando e até se posso ou não fazer uma compra na hora.  
+                                </p>
+                            </div>
+                        </div>
+                        <div class="comentario cima" style="--i:0s">
+                            <div class="content">
+                                <div class="cabecalho">
+                                    <div class="profile">
+                                        <img src="../comentarios/thiago.jpeg"/>
+                                        <div class="informacoes">
+                                            <p>Thiago Moreira</p>
+                                            <p>Farmaceutico</p>
+                                        </div>
+                                    </div>
+                                    <span>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>        
+                                </div>
+                                <p class="texto">Utilizo com a minha esposa e esta sendo essencial para alcançarmos as nossas metas, parabéns pelo trabalho de vocês!</p>
+                            </div>
+                        </div>
+                        <div class="comentario cima" style="--i:0s">
+                            <div class="content">
+                                <div class="cabecalho">
+                                    <div class="profile">
+                                        <img src="../comentarios/3.jpeg"/>
+                                        <div class="informacoes">
+                                            <p>Arthur Santos</p>
+                                            <p>Auxiliar Administrativo</p>
+                                        </div>
+                                    </div>
+                                    <span>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>        
+                                </div>
+                                <p class="texto">Reúne exatamente tudo que precisava para conseguir administrar meu dinheiro.
+
+                                    Antes o salário era só para pagar as contas e eu vivia no cheque especial e cartão de crédito
+                                    
+                                    Agora consigo ter controle e não passar sufoco</p>
+                            </div>
+                        </div>
+                        <div class="comentario cima" style="--i:0s">
+                            <div class="content">
+                                <div class="cabecalho">
+                                    <div class="profile">
+                                        <img src="../comentarios/7.jpg"/>
+                                        <div class="informacoes">
+                                            <p>Jorge Bezzera</p>
+                                            <p>Empreendedor</p>
+                                        </div>
+                                    </div>
+                                    <span>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>        
+                                </div>
+                                <p class="texto">Muit útil pra quem está dando os primeiro passo no seu negócio. Quando comecei não tinha um bom norte, mas com a planilha pude ter uma nocão bem melhor do que tenho em caixa.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="comentario cima" style="--i:0s">
+                            <div class="content">
+                                <div class="cabecalho">
+                                    <div class="profile">
+                                        <img src="../comentarios/luana.jpeg"/>
+                                        <div class="informacoes">
+                                            <p>Luana Moreira</p>
+                                            <p>Social Media</p>
+                                        </div>
+                                    </div>
+                                    <span>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>        
+                                </div>
+                                <p class="texto">Eu estava completamente sem controle, como autônoma não sabia nem ao certo quanto eu ganhava, só sabia que estava sempre sem dinheiro.
+    
+                                    Agora o problema foi resolvido, de forma simples consigo saber quanto entra e quanto sai e além disso saber onde o dinheiro está sendo gasto e se posso ou não fazer uma compra.</p>
+                            </div>
+                        </div>
+                        <div class="comentario cima" style="--i:0s">
+                            <div class="content">
+                                <div class="cabecalho">
+                                    <div class="profile">
+                                        <img src="../comentarios/6.jpg"/>
+                                        <div class="informacoes">
+                                            <p>Pedro G.</p>
+                                            <p>Não Informado</p>
+                                        </div>
+                                    </div>
+                                    <span>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>        
+                                </div>
+                                <p class="texto">Para quem já tem alguma noção de finanças, essa planilha é incrível. Ela traz gráficos claros que mostram onde estamos gastando mais, e me ajudou a reduzir custos. Uma sugestão seria ter uma versão mobile.</p>
+                            </div>
+                        </div>
+                        <div class="comentario cima" style="--i:0s">
+                            <div class="content">
+                                <div class="cabecalho">
+                                    <div class="profile">
+                                        <img src="../comentarios/felipe.jpeg"/>
+                                        <div class="informacoes">
+                                            <p>Felipe Carvalho</p>
+                                            <p>Analista Comercial</p>
+                                        </div>
+                                    </div>
+                                    <span>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>        
+                                </div>
+                                <p class="texto">Nunca pensei que fosse gostar tanto de uma planilha. Sério! Ela é muito intuitiva, prática e completa. Facilita demais o controle de todas as entradas e saídas, principalmente para quem tem pouco tempo e precisa de algo rápido e eficiente. Estou mais tranquilo agora que posso acompanhar tudo de forma clara</p>
+                            </div>
+                        </div>
+                        <div class="comentario cima" style="--i:0s">
+                            <div class="content">
+                                <div class="cabecalho">
+                                    <div class="profile">
+                                        <img src="../comentarios/5.jpeg"/>
+                                        <div class="informacoes">
+                                            <p>Angélica Silva.</p>
+                                            <p>Fisioterapeuta</p>
+                                        </div>
+                                    </div>
+                                    <span>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>        
+                                </div>
+                                <p class="texto">Já experimentei algumas planilhas antes, mas esse sistema é de longe o melhor. Fui surpreendida positivamente, ele é bem fácil de usar
+                                </p>
+                            </div>
+                        </div>
+                        <div class="comentario cima" style="--i:0s">
+                            <div class="content">
+                                <div class="cabecalho">
+                                    <div class="profile">
+                                        <img src="../comentarios/giovanna.jpeg"/>
+                                        <div class="informacoes">
+                                            <p>Giovanna Correia</p>
+                                            <p>Téc. de Enfermagem</p>
+                                        </div>
+                                    </div>
+                                    <span>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>        
+                                </div>
+                                <p class="texto">Acho a gestaofinanceira360 muito útil para organizar minhas finanças e ter uma visão geral e clara do meu dinheiro e principalmente planejar meus objetivos. Agora sempre sei como estou indo em termos de orçamento e posso ajustar minhas despesas com um pouco mais de responsabilidade. Recomendo!!</p>
+                            </div>
+                        </div>
+                        <div class="comentario cima" style="--i:0s">
+                            <div class="content">
+                                <div class="cabecalho">
+                                    <div class="profile">
+                                        <img src="../comentarios/arthur.jpeg"/>
+                                        <div class="informacoes">
+                                            <p>Gabriel Lacerda</p>
+                                            <p>Estudante</p>
+                                        </div>
+                                    </div>
+                                    <span>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>        
+                                </div>
+                                <p class="texto">Fiquei bem satisfeito com a clareza e simplicidade que ele oferece nas aulas.
+    
+                                    Quanto ao suporte, é ágil e eficiente, normalmente, recebo respostas em poucas horas, e todas as minhas dúvidas são resolvidas.</p>
+                            </div>
+                        </div>
+                        <div class="comentario cima" style="--i:0s">
+                            <div class="content">
+                                <div class="cabecalho">
+                                    <div class="profile">
+                                        <img src="../comentarios/gabriel.png"/>
+                                        <div class="informacoes">
+                                            <p>Gabriel Pato</p>
+                                            <p>Não informado</p>
+                                        </div>
+                                    </div>
+                                    <span>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>        
+                                </div>
+                                <p class="texto">Comprei essa planilha para organizar as finanças do meu escritório e ela tem sido essencial para controlar o fluxo de caixa e identificar onde podemos cortar custos. Recomendo fortemente para qualquer empreendedor que queira uma solução prática!</p>
+                            </div>
+                        </div>
+                        <div class="comentario cima" style="--i:0s">
+                            <div class="content">
+                                <div class="cabecalho">
+                                    <div class="profile">
+                                        <img src="../comentarios/2.jpeg"/>
+                                        <div class="informacoes">
+                                            <p>Pedro Morais</p>
+                                            <p>Analista de Dados</p>
+                                        </div>
+                                    </div>
+                                    <span>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>        
+                                </div>
+                                <p class="texto">"Uso a GestãoFinanceira360 há três meses e posso dizer que me ajudou a ter uma visão muito mais
+                                        clara das minhas finanças. Antes eu misturava contas pessoais e profissionais, agora tudo está organizado!"</p>
+                            </div>
+                        </div>
+                        <div class="comentario cima" style="--i:0s">
+                            <div class="content">
+                                <div class="cabecalho">
+                                    <div class="profile">
+                                        <img src="../comentarios/paulo.jpeg"/>
+                                        <div class="informacoes">
+                                            <p>Márcio J.</p>
+                                            <p>Autonomo</p>
+                                        </div>
+                                    </div>
+                                    <span>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>        
+                                </div>
+                                <p class="texto">
+                                    Antes, eu meio que não tinha muito controle sobre o quanto eu ganhava e pra onde ia o dinheiro. Às vezes, acabava gastando mais do que devia, sem nem perceber. Mas, depois de fazer alguns ajustes simples e mudar a forma como eu lidava com isso, finalmente consegui entender melhor o que entra e o que sai. Agora tá muito mais claro, sei onde estou gastando e até se posso ou não fazer uma compra na hora.  
+                                </p>
+                            </div>
+                        </div>
+                        <div class="comentario cima" style="--i:0s">
+                            <div class="content">
+                                <div class="cabecalho">
+                                    <div class="profile">
+                                        <img src="../comentarios/thiago.jpeg"/>
+                                        <div class="informacoes">
+                                            <p>Thiago Moreira</p>
+                                            <p>Farmaceutico</p>
+                                        </div>
+                                    </div>
+                                    <span>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>        
+                                </div>
+                                <p class="texto">Utilizo com a minha esposa e esta sendo essencial para alcançarmos as nossas metas, parabéns pelo trabalho de vocês!</p>
+                            </div>
+                        </div>
+                        <div class="comentario cima" style="--i:0s">
+                            <div class="content">
+                                <div class="cabecalho">
+                                    <div class="profile">
+                                        <img src="../comentarios/3.jpeg"/>
+                                        <div class="informacoes">
+                                            <p>Arthur Santos</p>
+                                            <p>Auxiliar Administrativo</p>
+                                        </div>
+                                    </div>
+                                    <span>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>        
+                                </div>
+                                <p class="texto">Reúne exatamente tudo que precisava para conseguir administrar meu dinheiro.
+
+                                    Antes o salário era só para pagar as contas e eu vivia no cheque especial e cartão de crédito
+                                    
+                                    Agora consigo ter controle e não passar sufoco</p>
+                            </div>
+                        </div>
+                        <div class="comentario cima" style="--i:0s">
+                            <div class="content">
+                                <div class="cabecalho">
+                                    <div class="profile">
+                                        <img src="../comentarios/7.jpg"/>
+                                        <div class="informacoes">
+                                            <p>Jorge Bezzera</p>
+                                            <p>Empreendedor</p>
+                                        </div>
+                                    </div>
+                                    <span>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>        
+                                </div>
+                                <p class="texto">Muit útil pra quem está dando os primeiro passo no seu negócio. Quando comecei não tinha um bom norte, mas com a planilha pude ter uma nocão bem melhor do que tenho em caixa.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="comentario cima" style="--i:0s">
+                            <div class="content">
+                                <div class="cabecalho">
+                                    <div class="profile">
+                                        <img src="../comentarios/luana.jpeg"/>
+                                        <div class="informacoes">
+                                            <p>Luana Moreira</p>
+                                            <p>Social Media</p>
+                                        </div>
+                                    </div>
+                                    <span>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>        
+                                </div>
+                                <p class="texto">Eu estava completamente sem controle, como autônoma não sabia nem ao certo quanto eu ganhava, só sabia que estava sempre sem dinheiro.
+    
+                                    Agora o problema foi resolvido, de forma simples consigo saber quanto entra e quanto sai e além disso saber onde o dinheiro está sendo gasto e se posso ou não fazer uma compra.</p>
+                            </div>
+                        </div>
+                        <div class="comentario cima" style="--i:0s">
+                            <div class="content">
+                                <div class="cabecalho">
+                                    <div class="profile">
+                                        <img src="../comentarios/6.jpg"/>
+                                        <div class="informacoes">
+                                            <p>Pedro G.</p>
+                                            <p>Não Informado</p>
+                                        </div>
+                                    </div>
+                                    <span>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>        
+                                </div>
+                                <p class="texto">Para quem já tem alguma noção de finanças, essa planilha é incrível. Ela traz gráficos claros que mostram onde estamos gastando mais, e me ajudou a reduzir custos. Uma sugestão seria ter uma versão mobile.</p>
+                            </div>
+                        </div>
+                        <div class="comentario cima" style="--i:0s">
+                            <div class="content">
+                                <div class="cabecalho">
+                                    <div class="profile">
+                                        <img src="../comentarios/felipe.jpeg"/>
+                                        <div class="informacoes">
+                                            <p>Felipe Carvalho</p>
+                                            <p>Analista Comercial</p>
+                                        </div>
+                                    </div>
+                                    <span>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>        
+                                </div>
+                                <p class="texto">Nunca pensei que fosse gostar tanto de uma planilha. Sério! Ela é muito intuitiva, prática e completa. Facilita demais o controle de todas as entradas e saídas, principalmente para quem tem pouco tempo e precisa de algo rápido e eficiente. Estou mais tranquilo agora que posso acompanhar tudo de forma clara</p>
+                            </div>
+                        </div>
+                        <div class="comentario cima" style="--i:0s">
+                            <div class="content">
+                                <div class="cabecalho">
+                                    <div class="profile">
+                                        <img src="../comentarios/5.jpeg"/>
+                                        <div class="informacoes">
+                                            <p>Angélica Silva.</p>
+                                            <p>Fisioterapeuta</p>
+                                        </div>
+                                    </div>
+                                    <span>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>        
+                                </div>
+                                <p class="texto">Já experimentei algumas planilhas antes, mas esse sistema é de longe o melhor. Fui surpreendida positivamente, ele é bem fácil de usar
+                                </p>
+                            </div>
+                        </div>
+                        <div class="comentario cima" style="--i:0s">
+                            <div class="content">
+                                <div class="cabecalho">
+                                    <div class="profile">
+                                        <img src="../comentarios/giovanna.jpeg"/>
+                                        <div class="informacoes">
+                                            <p>Giovanna Correia</p>
+                                            <p>Téc. de Enfermagem</p>
+                                        </div>
+                                    </div>
+                                    <span>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>        
+                                </div>
+                                <p class="texto">Acho a gestaofinanceira360 muito útil para organizar minhas finanças e ter uma visão geral e clara do meu dinheiro e principalmente planejar meus objetivos. Agora sempre sei como estou indo em termos de orçamento e posso ajustar minhas despesas com um pouco mais de responsabilidade. Recomendo!!</p>
+                            </div>
+                        </div>
+                        <div class="comentario cima" style="--i:0s">
+                            <div class="content">
+                                <div class="cabecalho">
+                                    <div class="profile">
+                                        <img src="../comentarios/arthur.jpeg"/>
+                                        <div class="informacoes">
+                                            <p>Gabriel Lacerda</p>
+                                            <p>Estudante</p>
+                                        </div>
+                                    </div>
+                                    <span>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>        
+                                </div>
+                                <p class="texto">Fiquei bem satisfeito com a clareza e simplicidade que ele oferece nas aulas.
+    
+                                    Quanto ao suporte, é ágil e eficiente, normalmente, recebo respostas em poucas horas, e todas as minhas dúvidas são resolvidas.</p>
+                            </div>
+                        </div>
+                        <div class="comentario cima" style="--i:0s">
+                            <div class="content">
+                                <div class="cabecalho">
+                                    <div class="profile">
+                                        <img src="../comentarios/gabriel.png"/>
+                                        <div class="informacoes">
+                                            <p>Gabriel Pato</p>
+                                            <p>Não informado</p>
+                                        </div>
+                                    </div>
+                                    <span>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>        
+                                </div>
+                                <p class="texto">Comprei essa planilha para organizar as finanças do meu escritório e ela tem sido essencial para controlar o fluxo de caixa e identificar onde podemos cortar custos. Recomendo fortemente para qualquer empreendedor que queira uma solução prática!</p>
+                            </div>
+                        </div>         
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="problemas">
+            <div  class="center">
+                <div  class="descri cima" style="--i:0s;">
+                    <h1  style="text-align: center;">Problemas que você deixará de ter ao adquirir a GF360</h1>
+                    <div class="linha"></div>
+                </div>
+                <section class="container">
+                    <div class="coluna">
+                        <div class="item baixo" style="--i:0s">
+                            <span class="lnr lnr-file-empty"></span>                        
+                            <div class="liric">
+                                <p>Fluxo de Caixa Inconsistente</p>
+                                <p>Dificuldades em prever o fluxo de caixa, Atrasos nos pagamentos e decisões apressadas que afetam o crescimento do seu negócio</p>
+                            </div>
+                        </div>
+                        <div class="item baixo" style="--i:0s">
+                            <span class="lnr lnr-apartment"></span>                        
+                            <div class="liric">
+                                <p>Falta de Controle sobre Despesas</p>
+                                <p>A ausência de monitoramento detalhado das despesas pode resultar em gastos excessivos e dificuldade para manter a saúde financeira.</p>
+                            </div>
+                        </div>
+                        <div class="item baixo" style="--i:0s">
+                            <span class="lnr lnr-hourglass"></span>                        
+                            <div class="liric">
+                                <p>Gestão Ineficiente de Estoque</p>
+                                <p>
+                                    Entender e equilibrar seu estoque é essencial para avaliar a saúde financeira do negócio. Saber o saldo no início e no final do mês permite identificar onde o lucro pode ter sido perdido.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="coluna">
+                        <div class="item baixo" style="--i:0s">
+                            <span class="lnr lnr-list"></span>                        
+                            <div class="liric">
+                                <p>Planejamento Financeiro Fraco</p>
+                                <p>Sem planejamento, sua empresa está suscetível a crises. é difícil prever despesas, gerenciar investimentos e estabelecer metas de crescimento. Isso pode levar a decisões impulsivas que impactam a saúde financeira do negócio</p>
+                            </div>
+                        </div>
+                        <div class="item baixo" style="--i:0s">
+                            <span class="lnr lnr-laptop"></span>                        
+                            <div class="liric">
+                                <p>Dependência de Financiamento Externo</p>
+                                <p>Contar muito com financiamento externo é arriscado para empresas com fluxo de caixa instável, pois pode resultar em endividamento e dificuldades no controle financeiro e investimentos.</p>
+                            </div>
+                        </div>
+                        <div class="item baixo" style="--i:0s">
+                            <span class="lnr lnr-pie-chart"></span>                        
+                            <div class="liric">
+                                <p>Orçamento Desorganizado</p>
+                                <p>A gestão de um orçamento pode ser caótica sem uma planilha estruturada. As empresas frequentemente não conseguem alocar recursos de forma eficaz</p>
+                            </div>
+                        </div>    
+                    </div>
+                </section>
+            </div>
+        </section>
+        <section>
+            <div class="center">
+                <div class="vantagens">
+                    <h1 class="cima" style="--i:0s">Aproveite Nossos Bônus Exclusivos!</h1>
+                    <div class="linha"></div>
+                    <p class="texto baixo" style="--i:0s">Uma planilha que atende Suas Necessidades,
+                        sem mensalidade. Nos temos a oferta que cabe no seu bolso. E não se precocupe pois Não é assinatura. Adquira e tenha acesso para sempre</p>       
+                    <div class="linhas">
+                        <di class="traco">
+                            <span class="ponto aparecer" style="--i:0s"></span>
+                            <div class="text">
+                                <p class="esquerda" style="--i:0.8s">Calculadora de Custos</p>
+                                <p class="direita" style="--i:0.8s">Controle seus custos de maneira fácil e rápida, sem complicações.</p>    
+                            </div>
+                        </di>
+                        <di class="traco">
+                            <span class="ponto aparecer" style="--i:0.2s"></span>
+                            <div class="text">
+                                <p class="esquerda" style="--i:1s">Conciliação Bancária</p>
+                                <p class="direita" style="--i:1.4s">Sincronize suas finanças com suas informações e saiba quanto deve ter em saldos bancários sem esforço.</p>    
+                            </div>
+                        </di>
+                        <di class="traco">
+                            <span class="ponto aparecer" style="--i:0.4s"></span>
+                            <div class="text">
+                                <p class="esquerda" style="--i:1.8s">Acesso Vitalício</p>
+                                <p class="direita" style="--i:2.1s">Pague uma vez, utilize para sempre, sem taxas adicionais.</p>    
+                            </div>
+                        </di>
+                        <di class="traco">
+                            <span class="ponto aparecer" style="--i:0.6s"></span>
+                            <div class="text">
+                                <p class="esquerda" style="--i:2.5s">Suporte Direto</p>
+                                <p class="direita" style="--i:2.9s">Tenha contato direto com nossa equipe sempre que precisar.</p>    
+                            </div>
+                        </di>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="center">
+                <div class="planilhas">
+                    <h1>O que voce terá dentro da GF360!</h1>
+                    <p class="linha"></p>
+                    <div class="lado lado2 direita" style="--i:0s">
+                        <div class="brilho"></div>
+                        <img src="../imagens/slide1.png" alt="textando"/>
+                        <div class="info">
+                            <p>Cadastros de Categorias</p>
+                            <p>A ausência de monitoramento detalhado das despesas pode resultar em gastos excessivos e dificuldade para manter a saúde financeira.</p>
+                        </div>
+                    </div>
+                    <div class="lado esquerda" style="--i:0s">
+                        <div class="brilho"></div>
+                        <img src="../imagens/slide6.png" alt="textando"/>
+                        <div class="info">
+                            <p>Dashboard financeiro</p>
+                            <p>Muitas empresas enfrentam dificuldades em prever seu fluxo de caixa, levando a períodos de liquidez apertada</p>
+                        </div>
+                    </div>
+                    <div class="lado lado2 direita" style="--i:0s">
+                        <div class="brilho"></div>
+                        <img src="../imagens/slide3.png" alt="textando"/>
+                        <div class="info">
+                            <p>Relatórios Financeiros</p>
+                            <p>Sem um planejamento adequado, as empresas podem não ter reservas suficientes para enfrentar imprevistos ou aproveitar oportunidades.</p>
+                        </div>
+                    </div>
+                    <div class="lado esquerda" style="--i:0s">
+                        <div class="brilho"></div>
+                        <img src="../imagens/slide2.png" alt="textando"/>
+                        <div class="info">
+                            <p>Receitas</p>
+                            <p>Manter um estoque excessivo ou insuficiente pode impactar negativamente o capital de giro e a capacidade de atender a demanda.</p>
+                        </div>
+                    </div>
+                    <div class="lado lado2 direita" style="--i:0s">
+                        <div class="brilho"></div>
+                        <img src="../imagens/slide5.png" alt="textando"/>
+                        <div class="info">
+                            <p>Conciliação Bancária</p>
+                            <p>A gestão de um orçamento pode ser caótica sem uma planilha estruturada. As empresas frequentemente não conseguem alocar recursos de forma eficaz</p>
+                        </div>
+                    </div> 
+                    <div class="lado esquerda" style="--i:0s">
+                        <div class="brilho"></div>
+                        <img src="../imagens/slide4.png" alt="textando"/>
+                        <div class="info">
+                            <p>Despesas</p>
+                            <p>Contar excessivamente com linhas de crédito pode ser arriscado, especialmente se a empresa não tiver um fluxo de caixa estável.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="center" style="justify-content: center;">
+                <div class="video-tutorial">
+                    <div class="titulo-3d">
+                        <div id="espaco_esfera" class="espaco-esfera"><div id="esfera"></div></div>
+                        <p >Adquira nossa <strong>Solução</strong> 
+                        </p>
+                    </div>
+                    <video
+                    id="my-video"
+                    class="video-js"
+                    controls
+                    preload="auto"
+                    width= "70%"
+                    height= "auto"
+                
+                    poster="../imagens/cta.png"
+                    data-setup="{}"
+                >
+                    <source src="../tituorial-gestao.mp4" type="video/mp4" />
+                    <p class="vjs-no-js">
+                    To view this video please enable JavaScript, and consider upgrading to a
+                    web browser that
+                    <a href="https://videojs.com/html5-video-support/" target="_blank"
+                        >supports HTML5 video</a
+                    >
+                    </p>
+                </video>    
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="center">
+                <div id="produtos" class="produtos">
+                    <h1 >Escolha seu produto!</h1>
+                    <div style="width: 70%;" class="linha"></div>
+                    <p class="title">Nos temos a oferta que cabe no seu bolso. E não se precocupe pois Não é assinatura. Adquira e tenha acesso para sempre</p>
+                    <div class="precos">
+                        <div class="plano">
+                            <div class="off">
+                                <p>-30% Off</p>
+                            </div>
+                            <p><i class="fa-solid fa-house-user"></i>BÁSICO</p>
+                            <p class="preco-antigo">R$50,70</p>
+                            <p class="preco">R$39,00</p>
+                            <div class="lista">
+                                <p class="incluso">Dashboard interativo</p>
+                                <p class="incluso">Controle Financeiro</p>
+                                <p class="incluso">Conciliação Bancária</p>
+                                <p class="incluso">Aula Simplificada</p>
+                                <p class="incluso">Suporte Padrão</p>
+                                <p class="incluso">Garantia de 7 dias</p>    
+                            </div>
+                            <a href="https://pay.cakto.com.br/8JuzB4Q">Comprar</a>
+                            <p class="copy">Compra 100% Segura Garanta seu acesso imediato após o pagamento, com 7 dias de garantia incondicional.</p>
+                        </div>
+                        <div class="plano premium">
+                            <div class="off">
+                                <p>-40% Off</p>
+                            </div>
+                            <p><i class="fa-solid fa-crown"></i>PREMIUM</p>
+                            <p class="preco-antigo">R$68,60</p>
+                            <p class="preco">R$49,00</p>
+                            <div class="lista">
+                                <p class="incluso">Dashboard interativo</p>
+                                <p class="incluso">Controle Financeiro</p>
+                                <p class="incluso">Conciliação Bancária</p>
+                                <p class="incluso">Aula Simplificada</p>
+                                <p class="incluso">Suporte Padrão</p>    
+                                <p class="incluso">Garantia de 7 dias</p>
+                            </div>
+                            <a href="https://pay.cakto.com.br/Cx6W9HY">Comprar</a>
+                            <p class="copy">Compra 100% Segura Garanta seu acesso imediato após o pagamento, com 7 dias de garantia incondicional.</p>
+                        </div>
+                    </div>        
+                </div>
+            </div>
+        </section>
+        <section id="rodape_final" class="rodape_final">
+            <div class="estrelas" allowFullScreen></div>
+            <div class="conteudo">
+                <div class="espaco_logo">
+                    <img src="../imagens/logo2.png"/>
+                    <p>GestãoFinanceira<strong style="color: var(--cor-thema);">360</strong></p>
+                </div>
+                <div class="comunicar">
+                    <p>Termos de uso</p>
+                    <p class="separador">|</p>
+                    <p>Políticas de privacidade</p>
+                    <p class="separador">|</p>
+                    <p>Contato</p>
+                </div>
+                <p class="copy">© 2024 Gestãofinanceira360 - Todos os direitos reservados</p>    
+            </div>
+        </section>
+        <section>
+            
+        </section>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WNFB6K8Q"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+            <!-- End Google Tag Manager (noscript) -->
+        <script src="https://vjs.zencdn.net/8.16.1/video.min.js"></script>
+        <script src="script.js" defer></script>
+    </body>
+</html>
