@@ -163,11 +163,12 @@ section{
     display: flex;
     position: relative;
 }
-.titulo-3d p{
+.titulo-3d h1{
     text-align: center;
-    width: 70%;
+    width: 90%;
+    line-height: 1.1;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 42px;
     position: absolute;
 }
 .titulo-3d strong{
@@ -546,8 +547,8 @@ font-size: 19px;
     flex-direction: column;
 }
 .espaco-esfera {
-    width: 400px; /* Largura fixa */
-    height: 400px; /* Altura fixa */
+    width: 500px; /* Largura fixa */
+    height: 500px; /* Altura fixa */
     overflow: hidden; /* Impede overflow que pode causar problemas */
     position: relative; /* Posicionamento relativo */
     margin: 0 auto; /* Centraliza o contêiner na página */
@@ -1356,7 +1357,7 @@ h1{
     .cta_inicial .header{
         display: none;
     }
-    .titulo-3d p{
+    .titulo-3d h1{
         width: 90%;
     }
     .container_comentarios{
@@ -1408,7 +1409,7 @@ h1{
         width: 300px;
         height: 300px;
     }
-    .titulo-3d p{
+    .titulo-3d h1{
         width: 80%;
     }
     .center{
