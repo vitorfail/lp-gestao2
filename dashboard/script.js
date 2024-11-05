@@ -67,6 +67,7 @@ window.addEventListener("scroll",function() {
     detectarScroll("numero2");
     detectarScroll("numero3");
     detectarScroll("cifrao");
+    detectarScroll("aparecer");
     contadores()
 
 });
