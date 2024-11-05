@@ -257,7 +257,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const particlesMaterial = new THREE.PointsMaterial({
         color: 0xffa500,
-        size: 0.02,
+        size: 0.03,
     });
 
     const particles = new THREE.Points(particlesGeometry, particlesMaterial);

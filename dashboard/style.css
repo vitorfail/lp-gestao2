@@ -61,8 +61,7 @@ section{
     position: relative;
     margin: 20px 0px;
     text-decoration: none;
-    background: var(--cor-thema);
-    font-weight: 500;
+    font-weight: 600;
     position: relative;
     font-size: 17px;
     width: auto;
@@ -73,6 +72,23 @@ section{
     height: 40px;
     border-radius: 8px;
     color: black;
+}
+.action.cifrao::after{
+    content: '$';
+    display: flex;
+    font-size: 20px;
+    color: white;
+    animation: cifrao 1s linear infinite;
+    right: 0;
+}
+@keyframes cifrao {
+    from {
+        transform: rotateY(0deg);
+      }
+      to {
+        transform: rotateY(360deg);
+        text-shadow: 0px 0px 20px #EDEAE3;
+      }
 }
 .action.seta::after{
     font-family: 'FontAwesome';
@@ -154,10 +170,10 @@ section{
     font-size: 42px;
     line-height: 1.1;
     padding: 20px 0px;
-    width: 80%
+    width: 70%
 }
 .cta_inicial p{
-    padding: 20px 0px;
+    padding: 40px 0px;
     padding-left: 10px;
     position: relative;
     display: flex;
@@ -173,10 +189,11 @@ section{
     background: var(--cor-thema);
 }
 .cta_inicial .content{
-    min-height: 600px;
+    min-height: 80vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
+    padding-bottom: 40px;
     align-items: flex-start;
 }
 .cta_inicial .content a{
@@ -862,6 +879,7 @@ video{
     font-weight: 200;
 }
 .produtos .precos .plano a{
+    color: black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1297,18 +1315,25 @@ h1{
     }
 }
 @media screen and (max-width:770px) {
+    .produtos .title{
+        width: 100%;
+    }
     .produtos .precos{
         align-items: center;
     flex-direction: column;
     }
+    .linha {
+        margin: 5px 0px;
+    }
     .planilhas h1{
+        width: 80%;
         text-align: end;
     }
     .produtos .precos .plano{
         width: 100%;
     }
     h1{
-        font-size: 30px;
+        font-size: 25px;
     }
     .lado.lado2 .info,.lado .info, .lado img{
         position: relative;
@@ -1398,17 +1423,20 @@ h1{
         flex-direction: row;
     }
     .espaco-esfera{
-        width: 250px;
-        height: 250px;
+        width: 260px;
+        height: 260px;
     }
     #section-1{
         background-size: 200% 100%;
     }
     .cta_inicial h1{
+        padding: 10px 0px;
         font-size: 3vh;
     }
     .cta_inicial p{
+    padding: 10px 0px;
         font-size: 100%;
+        font-weight: 200;
     }
     .cta_inicial .header-suspenso{
         background: black;
