@@ -54,6 +54,54 @@ section{
     width: 100%;
     height: auto;
 }
+.action{
+    background: linear-gradient(56deg, var(--cor-thema), var(--cor-thema), #fff5b9, var(--cor-thema), var(--cor-thema));
+    background-size: 400%;
+    animation: changeGradientAnimation 18s ease-in-out infinite;
+    position: relative;
+    margin: 20px 0px;
+    text-decoration: none;
+    background: var(--cor-thema);
+    font-weight: 500;
+    position: relative;
+    font-size: 17px;
+    width: auto;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border-radius: 8px;
+    color: black;
+}
+.action.seta::after{
+    font-family: 'FontAwesome';
+    content: '\f061';
+    display: flex;
+    font-size: 20px;
+    color: black;
+    animation: volta 1s infinite;
+    right: 0;
+}
+@keyframes volta {
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(12px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+.action:hover{
+    color: var(--cor-thema);
+    background: transparent;
+    border: 1px solid var(--cor-thema);
+}
+.action:hover::after{
+    color: var(--cor-thema);
+}
 #section-1{
     background: url("../imagens/Bacground.png");
     background-position: center;
@@ -72,13 +120,20 @@ section{
     justify-content: space-between;
     flex-direction: column;
 }
-
+.cta_inicial .header-suspenso{
+    border-bottom: 1px solid rgba(255, 145, 0, 0.259);
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
 .cta_inicial .header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-.cta_inicial .header{
     width: 100%;
     height: 60px;
 }
@@ -87,9 +142,13 @@ section{
     width: auto;
 }
 .cta_inicial .header .items{
-    width: 50%;
+    width: 60%;
     display: flex;
     justify-content: space-between;
+}
+.items a{
+    text-decoration: none;
+    color: white;
 }
 .cta_inicial h1{
     font-size: 42px;
@@ -168,7 +227,6 @@ section{
     width: 90%;
     line-height: 1.1;
     font-weight: 700;
-    font-size: 42px;
     position: absolute;
 }
 .titulo-3d strong{
@@ -547,8 +605,8 @@ font-size: 19px;
     flex-direction: column;
 }
 .espaco-esfera {
-    width: 500px; /* Largura fixa */
-    height: 500px; /* Altura fixa */
+    width: 650px; /* Largura fixa */
+    height: 650px; /* Altura fixa */
     overflow: hidden; /* Impede overflow que pode causar problemas */
     position: relative; /* Posicionamento relativo */
     margin: 0 auto; /* Centraliza o contêiner na página */
@@ -614,7 +672,9 @@ font-size: 19px;
   align-items: flex-end;
   flex-direction: column;
 }
-
+.planilhas h1{
+    text-align: end;
+}
 .lado {
   --x: 50%;
   --y: 50%;
@@ -1318,7 +1378,8 @@ h1{
         width: 100%;
     }
     .cta_inicial .content{
-        min-height: 550px;
+        min-height: 77vh;
+        padding-top: 20px;
     }
     .plano{
         margin: 20px 0px;
@@ -1344,13 +1405,19 @@ h1{
         background-size: 200% 100%;
     }
     .cta_inicial h1{
-        font-size: 100%;
+        font-size: 3vh;
     }
     .cta_inicial p{
         font-size: 100%;
     }
-
+    .cta_inicial .header-suspenso{
+        background: black;
+    }
     .cta_inicial .header{
+        display: flex;
+        justify-content: center;
+    }
+    .cta_inicial .header .items{
         display: none;
     }
     .titulo-3d h1{
@@ -1386,7 +1453,7 @@ h1{
         justify-content: flex-start;
     }
     .prova p{
-        width: 90%;
+        width: 100%;
     }
 }
 @media screen and (max-width:942px) {
@@ -1395,6 +1462,9 @@ h1{
         height: 8%;
         width: 50%;
     }
+    .titulo-3d{
+        width: 100%;
+    }
     .cta_inicial{
         min-height: auto;
     }
@@ -1402,8 +1472,8 @@ h1{
         flex-direction: row;
     }
     .espaco-esfera{
-        width: 300px;
-        height: 300px;
+        width: 500px;
+        height: 500px;
     }
     .titulo-3d h1{
         width: 80%;
@@ -1426,7 +1496,7 @@ h1{
         flex-wrap: nowrap;
     }
     .prova{
-        width: 70%;
+        width: 100%;
         margin-right: 0;
     }
     .center_provas{
