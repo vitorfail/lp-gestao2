@@ -1495,6 +1495,7 @@ h1{
         width: 100%;
     }
     .cta_inicial{
+	    height:auto;
         min-height: auto;
     }
     .contadores .center{
