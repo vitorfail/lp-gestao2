@@ -196,8 +196,8 @@ header .titulo{
     justify-content: flex-start;
 }
 header .titulo span{
-    width: 200px;
-    height: 80px;
+    width: 100px;
+    height: 60px;
     background:url("imagens/logo.png");
     background-size: cover;
     background-repeat: no-repeat;
