@@ -130,8 +130,7 @@ section{
     align-items: center;
     justify-content: space-between;
 }.cta_inicial{
-    height: 95vh;
-    min-height: 95vh;    
+    min-height: auto;    
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -190,7 +189,7 @@ section{
     background: var(--cor-thema);
 }
 .cta_inicial .content{
-    min-height: 100%;
+    min-height: 690px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -242,7 +241,7 @@ section{
 }
 .titulo-3d h1{
     text-align: center;
-    width: 90%;
+    width: 70%;
     line-height: 1.1;
     font-weight: 700;
     position: absolute;
@@ -623,8 +622,8 @@ font-size: 19px;
     flex-direction: column;
 }
 .espaco-esfera {
-    width: 650px; /* Largura fixa */
-    height: 650px; /* Altura fixa */
+    width: 720px; /* Largura fixa */
+    height: 720px; /* Altura fixa */
     overflow: hidden; /* Impede overflow que pode causar problemas */
     position: relative; /* Posicionamento relativo */
     margin: 0 auto; /* Centraliza o contêiner na página */
@@ -1404,7 +1403,7 @@ h1{
         width: 100%;
     }
     .cta_inicial .content{
-        min-height: 77vh;
+        min-height: 72vh;
         padding-top: 20px;
     }
     .plano{
@@ -1506,7 +1505,7 @@ h1{
         height: 500px;
     }
     .titulo-3d h1{
-        width: 80%;
+        width: 60%;
     }
     .center{
         width: 80%;
