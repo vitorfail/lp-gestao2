@@ -161,6 +161,7 @@ section{
     width: 60%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .items a{
     text-decoration: none;
@@ -446,14 +447,14 @@ section{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    min-height: auto;
+    min-height: 23rem;
     overflow-x: hidden;
-    min-height: fit-content;}
+}
 
 .comentarios::before{
 }
 .comentario{
-    margin: 3px;
+    margin:0px 3px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -463,7 +464,7 @@ section{
     background: #EDEAE3;
     color: var(--cor-destaque);
     border-radius: 10px;
-    height: auto;
+    height: 100%;
 }
 .comentario .cabecalho{
     width: 100%;
@@ -537,7 +538,7 @@ font-size: 19px;
     animation: scroll 30s linear infinite;
     display: flex;
     justify-content: center;
-    padding-top: 20px;
+    height: 100%;
 }
 @keyframes scroll {
 	0% { transform: translateX(0); }
