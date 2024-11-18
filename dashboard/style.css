@@ -196,6 +196,10 @@ section{
     justify-content: flex-end;
     padding-bottom: 40px;
     align-items: flex-start;
+}.cta_inicial .content h1 strong{
+    font-weight: 600;
+    border-bottom:1px solid var(--cor-thema) ;
+    color: var(--cor-thema);
 }
 .cta_inicial .content a{
     background: linear-gradient(56deg, var(--cor-thema), var(--cor-thema), #fff9d9, var(--cor-thema), var(--cor-thema));
@@ -873,6 +877,15 @@ video{
 .produtos .precos .lista .incluso::before{
     font-family: 'FontAwesome';
     content: '\f00c';
+    font-size: 16px;
+    padding-right: 10px;
+}
+.produtos .precos .lista .naoincluso{
+    color: red;
+}
+.produtos .precos .lista .naoincluso::before{
+    font-family: 'FontAwesome';
+    content: '\58';
     font-size: 16px;
     padding-right: 10px;
 }
