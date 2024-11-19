@@ -54,7 +54,7 @@
 .flipdown.flipdown__theme-light .rotor-bottom,
 .flipdown.flipdown__theme-light .rotor-leaf-rear{
   box-shadow: inset 0px 0px 12px rgb(107 77 0 / 62%);
-  background: linear-gradient(to right bottom, var(--cor-thema), rgb(255 224 157));
+  background: linear-gradient(to right bottom, #2c2c2c, #2c2c2c);
 
 }
 /* Delimeters */
