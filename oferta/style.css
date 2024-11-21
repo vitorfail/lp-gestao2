@@ -1601,9 +1601,7 @@ h1{
         height: 150px;
     }
     .header-suspenso .btn{
-        font-size: 70%;
-        height: 30%;
-        top: 0;
+        display: none;
     }
     .cta_inicial .content a{
         font-size: 100%;
@@ -1680,12 +1678,13 @@ h1{
         height: 100%;
     }
     .header-suspenso .btn {
+        display: none;
         height: 20%;
     }
     .header-suspenso p {
         height: 15%;
-        font-size: 60%;
-    }
+        font-size: 80%;
+        padding-bottom: 5px;    }
     .comentario {
         width: 80%;
     }
