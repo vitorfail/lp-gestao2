@@ -44,7 +44,7 @@
   justify-content: center;
     align-items: center;
     display: flex;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 .flipdown.flipdown__theme-light .rotor-group:nth-child(n+2):nth-child(-n+3):before,
 .flipdown.flipdown__theme-light .rotor-group:nth-child(n+2):nth-child(-n+3):after,
@@ -54,7 +54,7 @@
 .flipdown.flipdown__theme-light .rotor-bottom,
 .flipdown.flipdown__theme-light .rotor-leaf-rear{
   box-shadow: inset 0px 0px 12px rgba(0, 0, 0, 0.369);
-  background: #696969;
+  background: #7c7c7c;
 }
 /* Delimeters */
 
@@ -135,6 +135,7 @@
   width: 48%;
   height: 100%;
   border-radius: 4px;
+  animation: 1s pulsar ease-in-out 0.3s infinite;
   font-size: 27px;
   text-align: center;
   perspective: 200px;
@@ -177,11 +178,10 @@
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
 }
-.flipdown .rotor-group-heading{
+.flipdown .rotor-group-heading {
   height: 32%;
   width: 100%;
-  background: var(--cor-thema);
-  color: #000000;
+  background: rgb(255, 0, 0);
   position: relative;
 }
 .flipdown .rotor-leaf-front {
@@ -217,8 +217,12 @@
   border-radius: 0px 0px 4px 4px;
 }
 @media screen and (max-width:942px) {
-  .flipdown{
-    height: 45%;
+  .flipdown .rotor-leaf-front{
+    line-height: 53px;
+  }
+  .flipdown {
+    width: 75%;
+    height: 65%;
     padding-bottom: 10px;
   }
 }
@@ -232,8 +236,8 @@
 @media (max-width: 550px) {
 
   .flipdown {
-    height: 45%;
-    width: 70%;
+    height: 55%;
+    width: 100%;
     padding-bottom: 5px;
   }
 
@@ -296,5 +300,17 @@
   .flipdown .rotor-bottom,
   .flipdown .rotor:after {
     height: 50%;
+  }
+}
+
+@keyframes pulsar {
+  0%{
+    box-shadow: 0px 0px 0px red;
+  }
+  50%{
+    box-shadow: 0px 0px 44px rgba(255, 0, 0, 0.671);
+  }
+  100%{
+    box-shadow: 0px 0px 0px red;
   }
 }
