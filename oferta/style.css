@@ -601,6 +601,17 @@ section{
     height: 100%;
     width: 100%;
 }
+.comentario_inicial{
+    margin: 0px 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 35%;
+    background: #EDEAE3;
+    color: var(--cor-destaque);
+    border-radius: 10px;
+    height: 100%;}
 .comentario .cabecalho{
     width: 100%;
     display: flex;
@@ -1837,17 +1848,7 @@ h1{
 .coluna-comentario:nth-child(4) .comentario:nth-child(3){
     height: 32%;
 }
-.comentario_inicial{
-    margin: 0px 3px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-    width: 35%;
-    background: #EDEAE3;
-    color: var(--cor-destaque);
-    border-radius: 10px;
-    height: 100%;}
+
 .comentario{
     margin: 3px;
     display: flex;
