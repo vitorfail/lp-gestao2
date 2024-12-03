@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const dataAtual = new Date();
 
 // Data específica (28 de novembro de 2024)
-  const dataFutura = new Date(2024, 11, 3); 
+  const dataFutura = new Date(2024, 11, 4); 
 
 // Convertendo a diferença para segundos
   // Set up FlipDown
